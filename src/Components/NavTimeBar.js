@@ -9,11 +9,11 @@ const NavTimeBar = ({ setNewListRender }) => {
   return (
     <>
       <div className='row p-3'>
-        <div className='col-2 col-sm-1 bg-secondary border border-warning border-3 rounded-3 text-center p-2 text-white fs-5'><AiOutlineMenu /></div>
+        <div className='col-2 col-sm-1 bg-secondary border border-warning border-3 rounded-3 text-center p-2 text-white fs-5' title='Option coming soon!'><AiOutlineMenu /></div>
         <div className='col'></div>
         <div className='col-6 col-sm-5 col-md-4 bg-secondary border border-warning border-3 rounded-3 text-center p-2 text-white fs-4'>2dos2day</div>
         <div className='col'></div>
-        <div className='col-2 col-sm-1 bg-secondary border border-warning border-3 rounded-3 text-center p-2 text-white fs-5'><FaSearch /></div>
+        <div className='col-2 col-sm-1 bg-secondary border border-warning border-3 rounded-3 text-center p-2 text-white fs-5' title='Option coming soon!'><FaSearch /></div>
       </div>
       <div className='row my-3'>
         <div className='col'></div>
